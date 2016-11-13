@@ -1,10 +1,79 @@
+* {
+    /outline: 1px solid blue;*/
+}
+body {
+    font-family: sans-serif;
+}
+/*-----------------------------------------------------------------------------------------------------HEADER*/
+header .row {
+    background: linear-gradient(to right,#fff,#eaeaea)
+}
+header img {
+    height: 50px;
+    width: 350px;
+}
+header span {
+    position: relative;
+    left:70px;
+    bottom:20px;
+    color:#ded6d6;
+    font-size:14px;
+}
+header .search-box input {
+    padding:8px; /*Para que el texto se centre, no utilizar height porque se deforma*/
+    font-size:12px;
+    margin:5px 90px; 
+    width:160px;
+}
+header .search-box .fa-search {
+    margin-left: -115px;
+    color:#bfbfbf;
+}
 
-header {
-    background-color: #4e5357;
+/*-----------------------------------------------------------------------------------------------------END-HEADER*/
+
+/*---------------------------------------------------------------------------------------------------------HERO--*/ 
+.hero {
+    color:#c6c6c6;
 }
-header p{
+.hero h1 {
+    padding:10px;
+    font-size: 35px;
+    border-bottom: 1px solid #c6c6c6;
+    width:300px;
+    padding-left:0; 
+}
+.hero span{
+    border: solid #0c980c 2px;
+    padding: 3px;
+    font-size: 14px;
+    color: #0c980c;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero p{
+    font-size: 12px;
     display: inline-block;
+    margin-top: 25px;
 }
-header .img-responsive{
-    width: 200px;
+.hero .banner {
+    background:#333 url(../img/banner.jpg) no-repeat;
+    background-size:contain;
+}
+
+.hero .img-info {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.hero table {
+    padding-left: 60px;
+}
+/*------------------------------------------------------------------------------------------------------ESTRENOS*/
+.estrenos img {
+    width:100%;
+}
+
+/*----------------------------------------------------------------------------------------------------CARTELERA*/
+.cartelera img {
+    width: 100%;
 }
