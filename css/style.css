@@ -1,10 +1,15 @@
 * {
-    /outline: 1px solid blue;*/
+    /*outline: 1px solid blue;*/
 }
 body {
     font-family: sans-serif;
+    
+}
+.container fluid{
+    width: 100%;
 }
 /*-----------------------------------------------------------------------------------------------------HEADER*/
+
 header .row {
     background: linear-gradient(to right,#fff,#eaeaea)
 }
@@ -58,17 +63,38 @@ header .search-box .fa-search {
 }
 .hero .banner {
     background:#333 url(../img/banner.jpg) no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
 
 .hero .img-info {
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.hero table {
-    padding-left: 60px;
+.hero table{
+    margin-top: 15px;
+    font-size: 12px;
 }
+.hero table th {
+    padding-top: 2px;
+}
+.hero table td{
+    padding-left: 30px;
+}
+P .fa fa-youtube-play{
+    border: 2px yellow solid;
+    
+}
+
+
+
 /*------------------------------------------------------------------------------------------------------ESTRENOS*/
+.estrenos{
+    background-color: #ef9329;
+    padding: 20px;
+}
+.estrenos row{
+    width: 100%;
+}
 .estrenos img {
     width:100%;
 }
