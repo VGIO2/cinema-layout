@@ -6,8 +6,8 @@ body {
 }
 /*-----------------------------------------------------------------------------------------------------HEADER*/
 
-header .row {
-    background: linear-gradient(to right,#fff,#eaeaea)
+header{
+    background: linear-gradient(to right,#fff,#fff,#fff ,#eaeaea,#eaeaea,#eaeaea)
 }
 header img {
     height: 50px;
@@ -36,7 +36,7 @@ header .search-box .fa-search {
 /*---------------------------------------------------------------------------------------------------------HERO--*/ 
 .hero {
     color:#c6c6c6;
-    background: linear-gradient(to right, #fff, #fff, #554f4f, #3b3a3a, #2f2e2e);
+    background: linear-gradient(to right, #fff,#fff, #fff,#313131, #313131,#313131 );
 }
 .hero .logo{
     width: 60px;
@@ -115,21 +115,30 @@ header .search-box .fa-search {
     height: 200px;
 }
 /*----------------------------------------------------------------------------------------------------CONTENIDO*/
+.contenido{
+    margin-top: 25px;
+}
 .contenido small{
-    color: #F4F0F0;
-    font-size: 20px; 
-    padding-bottom: 10px;
+    color: #e6e0e0;
+    font-size: 25px;
 }
 .contenido button {
     background: #cc8d00;
     border: 1px solid #cc8d00;
     border-radius: 3px;
     color: #FFF;
-    padding: 18px 18px 18px 23px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 25px;
 }
 .contenido h1{
     font-size: 20px;
-    margin-bottom: 15px;
+    padding: 10px 0px 10px 0;
+}
+.contenido h2{
+    color: #e8ac64;
+    font-size: 12px;
+    font-weight: lighter;
 }
 .contenido p{
     margin-top: 30px;
@@ -139,6 +148,7 @@ header .search-box .fa-search {
     color: #cecece;
     font-size: 20px; 
     padding: 20px 0px;
+    font-weight: bold;
 }
 .contenido ul{
     list-style: none;
@@ -162,6 +172,7 @@ header .search-box .fa-search {
     text-decoration: none;
     color: #fcd681;
     font-size: 12px;
+    font-weight: bold;
 }
 /*----------------------------------------------------------------------------------------------------CARTELERA*/
 .cartelera img {
@@ -178,7 +189,7 @@ header .search-box .fa-search {
 
 footer{
 	background-color:#F4F0F0;
-	color:#E1D9D9;
+	color:#b7b0b0;
 	padding-bottom: 1%;
 	padding-top: 2%;
 	font-family: Arial, Helvetica, sans-serif;
